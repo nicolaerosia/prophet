@@ -26,7 +26,7 @@ def get_holiday_names(country):
     -------
     A set of all possible holiday names of given country
     """
-    years = np.arange(1995, 2045)
+    years = list(range(1995, 2045))
     try:
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
